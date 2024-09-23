@@ -15,10 +15,19 @@
     <a-scene embedded arjs='trackingMethod: best;'>
         <!-- GLTF 모델 로드 -->
         <a-entity 
-            gltf-model="https://raw.githubusercontent.com/2024ARtGarden/raw/refs/heads/main/test06_pleaseee/SampleScene.gltf"
+            gltf-model="https://raw.githubusercontent.com/2024ARtGarden/raw/refs/heads/main/AreaTarget.gltf"
             position="0 0 0"
             scale="1 1 1"
-            rotation="0 180 0"></a-entity>
+            rotation="0 180 0">
+        </a-entity>
+        
+        <!-- 추가할 3D 모델 -->
+        <a-entity 
+            gltf-model="https://raw.githubusercontent.com/2024ARtGarden/raw/refs/heads/main/scean01.gltf"
+            position="1 0 0"  <!-- 이 위치를 조정하여 GLTF 모델 근처에 배치 -->
+            scale="1 1 1"
+            rotation="0 0 0"></a-entity>
+
         <a-entity camera></a-entity>
     </a-scene>
 </body>
